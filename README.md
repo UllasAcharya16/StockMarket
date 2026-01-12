@@ -1,16 +1,81 @@
-# React + Vite
+project:
+  name: StockMarket
+  description: >
+    A stock market web application built using React and Vite.
+    The project is currently a frontend-focused application and
+    serves as a base for extending into a full-featured stock
+    analysis and visualization platform.
+  version: 1.0.0
+  status: active
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+author:
+  name: Ullas Acharya
+  github: https://github.com/UllasAcharya16
 
-Currently, two official plugins are available:
+repository:
+  url: https://github.com/UllasAcharya16/StockMarket
+  homepage: https://stock-market-beige.vercel.app
+  license: MIT
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+tech_stack:
+  frontend:
+    - React
+    - Vite
+    - JavaScript
+    - HTML
+    - CSS
+  tooling:
+    - npm
+    - ESLint
 
-## React Compiler
+features:
+  - Fast development and hot module replacement using Vite
+  - Component-based UI architecture with React
+  - Clean and minimal project structure
+  - Ready for stock market API integration
+  - Deployable on platforms like Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+languages:
+  JavaScript: 98.8
+  HTML: 1.1
+  CSS: 0.1
 
-## Expanding the ESLint configuration
+project_structure:
+  - public/
+  - src/
+  - index.html
+  - package.json
+  - package-lock.json
+  - vite.config.js
+  - README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+setup:
+  prerequisites:
+    - Node.js >= 18
+    - npm
+  installation_steps:
+    - git clone https://github.com/UllasAcharya16/StockMarket.git
+    - cd StockMarket
+    - npm install
+  run:
+    - npm run dev
+  build:
+    - npm run build
+  preview:
+    - npm run preview
+
+deployment:
+  platform: Vercel
+  live_url: https://stock-market-beige.vercel.app
+
+future_scope:
+  - Integration with real-time stock APIs
+  - Interactive charts and technical indicators
+  - User authentication and watchlists
+  - Backend integration for analytics
+  - Improved UI/UX with animations
+
+notes:
+  - This project currently uses a default React + Vite template.
+  - No backend or database is implemented yet.
+  - Intended as a foundation for future stock market applications.
